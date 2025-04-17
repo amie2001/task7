@@ -39,7 +39,8 @@ docker run -d --name=netdata \
 
 ## 📸 Dashboard Screenshot
 
-> ![Netdata Dashboard Screenshot](![image](https://github.com/user-attachments/assets/7a48be0b-9560-4bc5-983d-0737c6597c04)
+> ![Uploading image.png…]()
+
 )
 
 ---
