@@ -39,11 +39,12 @@ docker run -d --name=netdata \
 
 ## 📸 Dashboard Screenshot
 
-[Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/b085c552-2ba3-4740-9e33-4f9537045696)
 
 
 
----
+
+
 
 ## ✅ Outcome
 - Gained experience with lightweight performance monitoring
