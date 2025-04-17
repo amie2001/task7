@@ -21,7 +21,7 @@ docker run -d --name=netdata \
   --cap-add=SYS_PTRACE \
   --security-opt apparmor=unconfined \
   netdata/netdata
-  ```
+ 
    
 
 2. **Accessed the Netdata Dashboard:**
