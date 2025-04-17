@@ -21,7 +21,7 @@ docker run -d --name=netdata \
   --cap-add=SYS_PTRACE \
   --security-opt apparmor=unconfined \
   netdata/netdata
-  
+  ```
    
 
 2. **Accessed the Netdata Dashboard:**
@@ -36,17 +36,6 @@ docker run -d --name=netdata \
      - Active processes and app performance
    - Observed alerts and performance spikes
 
-4. *(Optional)*: To monitor Docker containers, mounted the Docker socket:
-   
-   docker run -d --name=netdata \
-     -p 19999:19999 \
-     -v /var/run/docker.sock:/var/run/docker.sock:ro \
-     --cap-add=SYS_PTRACE \
-     --security-opt apparmor=unconfined \
-     netdata/netdata
-   ```
-
----
 
 ## 📸 Dashboard Screenshot
 
