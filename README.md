@@ -39,9 +39,9 @@ docker run -d --name=netdata \
 
 ## 📸 Dashboard Screenshot
 
-> ![Uploading image.png…]()
+[Uploading image.png…]()
 
-)
+
 
 ---
 
