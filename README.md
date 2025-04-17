@@ -15,13 +15,14 @@ Set up **Netdata**, a free and open-source real-time monitoring tool, to visuali
 
 1. **Pulled and Ran Netdata via Docker:**
 
+   ```bash
+docker run -d --name=netdata \
+  -p 19999:19999 \
+  --cap-add=SYS_PTRACE \
+  --security-opt apparmor=unconfined \
+  netdata/netdata
+  
    
-   docker run -d --name=netdata \
-     -p 19999:19999 \
-     --cap-add=SYS_PTRACE \
-     --security-opt apparmor=unconfined \
-     netdata/netdata
-   ```
 
 2. **Accessed the Netdata Dashboard:**
    - Opened browser and visited:  
